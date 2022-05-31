@@ -1,0 +1,86 @@
+\begin{table*}[htbp]
+\scriptsize
+\centering
+\captionsetup{font=footnotesize}
+\caption{2021年年中之前在顶级会议上发布的现有深度长尾学习方法总结。主要有三类：
+类别重平衡、信息增强和模块改进。在本表中，“CSL”表示代价敏感学习；“LA”表示logit调整；
+“TL”代表迁移学习；“Aug”表示数据增强；“RL”表示表征学习；“CD”表示分类器设计，旨在为长尾
+识别设计新的分类器或预测方案；“DT”表示解耦训练，其中特征提取器和分类器分别进行训练；
+“Ensemble”表示基于集成学习的方法。我们还开源了我们收集的长尾学习资源：
+\href{https://github.com/Vanint/Awesome-LongTailed-Learning}{https://github.com/Vanint/Awesome-LongTailed-Learning}}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccccccccccc}
+\toprule
+\multirow{2}[4]{*}{Method} & \multirow{2}[4]{*}{ Publication} & \multirow{2}[4]{*}{Year} & \multicolumn{3}{c}{Class Re-balancing} &       & \multicolumn{2}{c}{Augmentation} &       & \multicolumn{4}{c}{Module Improvement} \\
+\cmidrule{4-6}\cmidrule{8-9}\cmidrule{11-14}          &       &       & Re-sampling  & CSL   &  LA   &       & TL    & Aug   &       & RL    & CD    & DT    & Ensemble \\
+\midrule
+LMLE \cite{Huang_2016}  & CVPR  & 2016  & √     &       &       &       &       &       &       & √     &       &       &  \\
+HFL \cite{Ouyang_2016} & CVPR  & 2016  &       &       &       &       &       &       &       & √     &       &       &  \\
+Focal loss \cite{Lin_2017_focal}  & ICCV  & 2017  &       & √     &       &       &       &       &       &       &       &       &  \\
+Range loss \cite{Zhang_2017}  & ICCV  & 2017  &       &       &       &       &       &       &       & √     &       &       &  \\
+CRL \cite{Dong_2017}  & ICCV  & 2017  &       &       &       &       &       &       &       & √     &       &       &  \\
+MetaModelNet \cite{wang2017learning}  & NeurIPS & 2017  &       &       &       &       & √     &       &       &       &       &       &  \\
+DSTL \cite{Cui_2018} & CVPR  & 2018  &       &       &       &       & √     &       &       &       &       &       &  \\
+CB \cite{Cui_2019}  & CVPR  & 2019  &       & √     &       &       &       &       &       &       &       &       &  \\
+Bayesian estimate \cite{Khan_2019}  & CVPR  & 2019  &       & √     &       &       &       &       &       &       &       &       &  \\
+FTL \cite{Yin_2019}  & CVPR  & 2019  &       &       &       &       & √     & √     &       &       &       &       &  \\
+Unequal-training \cite{Zhong_2019}  & CVPR  & 2019  &       &       &       &       &       &       &       & √     &       &       &  \\
+OLTR \cite{Liu_2019}  & CVPR  & 2019  &       &       &       &       &       &       &       & √     &       &       &  \\
+DCL \cite{Wang_2019}  & ICCV  & 2019  & √     &       &       &       &       &       &       &       &       &       &  \\
+Meta-Weight-Net \cite{shu2019meta}  & NeurIPS & 2019  &       & √     &       &       &       &       &       &       &       &       &  \\
+LDAM \cite{cao2019learning}  & NeurIPS & 2019  &       & √     &       &       &       &       &       &       &       &       &  \\
+Decoupling \cite{kang2019decoupling}  & ICLR  & 2020  & √     & √     &       &       &       &       &       & √     & √     & √     &  \\
+LST \cite{Hu_2020}  & CVPR  & 2020  & √     &       &       &       & √     &       &       &       &       &       &  \\
+BBN \cite{Zhou_2020}  & CVPR  & 2020  & √     &       &       &       &       &       &       &       &       &       & √ \\
+BAGS \cite{Li_2020}  & CVPR  & 2020  & √     &       &       &       &       &       &       &       &       &       & √ \\
+Domain adaptation \cite{Jamal_2020}  & CVPR  & 2020  &       & √     &       &       &       &       &       &       &       &       &  \\
+Equalization loss (ESQL) \cite{Tan_2020}  & CVPR  & 2020  &       & √     &       &       &       &       &       &       &       &       &  \\
+DBM \cite{Cao_2020}  & CVPR  & 2020  &       & √     &       &       &       &       &       &       &       &       &  \\
+M2m \cite{Kim_2020_m2m}  & CVPR  & 2020  &       &       &       &       & √     & √     &       &       &       &       &  \\
+LEAP \cite{Liu_2020}  & CVPR  & 2020  &       &       &       &       & √     & √     &       & √     &       &       &  \\
+IEM \cite{Zhu_2020} & CVPR  & 2020  &       &       &       &       &       &       &       & √     &       &       &  \\
+SimCal \cite{Wang_2020}  & ECCV  & 2020  & √     &       &       &       &       &       &       &       &       & √     & √ \\
+PRS \cite{Kim_2020_im}  & ECCV  & 2020  & √     &       &       &       &       &       &       &       &       &       &  \\
+Distribution-balanced loss \cite{Wu_2020_dist}  & ECCV  & 2020  &       & √     &       &       &       &       &       &       &       &       &  \\
+OFA \cite{Chu_2020}  & ECCV  & 2020  &       &       &       &       & √     & √     &       &       &       & √     &  \\
+LFME \cite{Xiang_2020} & ECCV  & 2020  &       &       &       &       & √     &       &       &       &       &       & √ \\
+Deep-RTC \cite{Wu_2020_solv}  & ECCV  & 2020  &       &       &       &       &       &       &       &       & √     &       &  \\
+Balanced Meta-Softmax \cite{ren2020balanced}  & NeurIPS & 2020  & √     & √     &       &       &       &       &       &       &       &       &  \\
+UNO-IC \cite{tian2020posterior} & NeurIPS & 2020  &       &       & √     &       &       &       &       &       &       &       &  \\
+De-confound-TDE \cite{tang2020long}  & NeurIPS & 2020  &       &       & √     &       &       &       &       &       & √     &       &  \\
+SSP \cite{yang2020rethinking}  & NeurIPS & 2020  &       &       &       &       & √     &       &       & √     &       &       &  \\
+Logit adjustment \cite{menon2020long}  & ICLR  & 2021  &       &       & √     &       &       &       &       &       &       &       &  \\
+RIDE \cite{wang2020long}  & ICLR  & 2021  &       &       &       &       & √     &       &       &       &       &       & √ \\
+KCL \cite{kang2020exploring}  & ICLR  & 2021  &       &       &       &       &       &       &       & √     &       & √     &  \\
+LTML \cite{Guo_2021}  & CVPR  & 2021  & √     &       &       &       &       &       &       &       &       &       & √ \\
+Equalization loss v2 \cite{Tan_2021}  & CVPR  & 2021  &       & √     &       &       &       &       &       &       &       &       &  \\
+Seesaw loss \cite{Wang_2021_seesaw}  & CVPR  & 2021  &       & √     &       &       &       &       &       &       &       &       &  \\
+ACSL \cite{Wang_2021_adap}  & CVPR  & 2021  &       & √     &       &       &       &       &       &       &       &       &  \\
+PML \cite{Deng_2021}  & CVPR  & 2021  &       & √     &       &       &       &       &       &       &       &       &  \\
+LADE \cite{Hong_2021}  & CVPR  & 2021  &       & √     & √     &       &       &       &       &       &       &       &  \\
+RoBal \cite{Wu_2021_adve}  & CVPR  & 2021  &       & √     & √     &       &       &       &       &       & √     &       &  \\
+DisAlign \cite{Zhang_2021_distr}  & CVPR  & 2021  &       & √     & √     &       &       &       &       &       &       & √     &  \\
+MiSLAS \cite{Zhong_2021}  & CVPR  & 2021  &       & √     &       &       &       & √     &       &       &       & √     &  \\
+CReST \cite{Wei_2021}  & CVPR  & 2021  &       &       &       &       & √     &       &       &       &       &       &  \\
+Conceptual 12M \cite{Changpinyo_2021}  & CVPR  & 2021  &       &       &       &       & √     &       &       &       &       &       &  \\
+RSG \cite{Wang_2021_rsg}  & CVPR  & 2021  &       &       &       &       & √     & √     &       &       &       &       &  \\
+MetaSAug \cite{Li_2021_meta}  & CVPR  & 2021  &       &       &       &       &       & √     &       &       &       &       &  \\
+Hybrid \cite{Wang_2021_cons}  & CVPR  & 2021  &       &       &       &       &       &       &       & √     &       &       &  \\
+Unsupervised discovery \cite{Weng_2021}  & CVPR  & 2021  &       &       &       &       &       &       &       & √     &       &       &  \\
+VideoLT \cite{Zhang_2021_video}  & ICCV  & 2021  & √     &       &       &       &       &       &       &       &       &       &  \\
+LOCE \cite{Feng_2021}  & ICCV  & 2021  & √     & √     &       &       &       &       &       &       &       &       &  \\
+GIST \cite{Liu_2021}  & ICCV  & 2021  & √     &       &       &       & √     &       &       &       & √     &       &  \\
+FASA \cite{Zang_2021}  & ICCV  & 2021  & √     &       &       &       &       & √     &       &       &       &       &  \\
+ACE \cite{Cai_2021}  & ICCV  & 2021  & √     &       &       &       &       &       &       &       &       &       & √ \\
+IB \cite{Park_2021}  & ICCV  & 2021  &       & √     &       &       &       &       &       &       &       &       &  \\
+DARS \cite{He_2021_redis}  & ICCV  & 2021  &       &       &       &       & √     &       &       &       &       &       &  \\
+SSD \cite{Li_2021_self}  & ICCV  & 2021  &       &       &       &       & √     &       &       &       &       &       &  \\
+DiVE \cite{He_2021_dist}  & ICCV  & 2021  &       &       &       &       & √     &       &       &       &       &       &  \\
+MosaicOS \cite{Zhang_2021_mosa}  & ICCV  & 2021  &       &       &       &       & √     &       &       &       &       &       &  \\
+PaCo \cite{Cui_2021}  & ICCV  & 2021  &       &       &       &       &       &       &       & √     &       &       &  \\
+DRO-LT \cite{Samuel_2021}  & ICCV  & 2021  &       &       &       &       &       &       &       & √     &       &       &  \\
+DT2 \cite{Desai_2021}  & ICCV  & 2021  &       &       &       &       &       &       &       &       &       & √     &  \\
+\bottomrule
+\end{tabular}}%
+\label{tab:2}%
+\end{table*}%

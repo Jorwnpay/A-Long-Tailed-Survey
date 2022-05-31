@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\small
+\centering
+\captionsetup{font=footnotesize}
+\caption{损失函数总结。在该表中，$z$和$p$表示样本$x$的预测logits和softmax概率，
+其中$z_y$和$p_y$对应于类别$y$。此外，$n$表示训练数据的总数，其中$n_y$是类别$y$的样本数。
+此外，$\pi$表示采样频率的向量，其中$\pi_y=n_y/n$表示类别$y$的标签频率。
+若没有给出更具体的值，类别权重由$w$表示，类别边距由$\Delta$表示。损失相关参数包括$\gamma$。}
+\begin{tabular}{ll}
+\toprule
+损失 & 表达式 \\
+\midrule
+Softmax 损失 & $\mathcal{L}_{ce}=-log(p_y)$ \\
+加权 Softmax 损失 & $\mathcal{L}_{wce}=-\frac{1}{\pi_y}log(p_y)$ \\
+焦点损失 \cite{Lin_2017_focal} & $\mathcal{L}_{fl}=-(1-p_y)^\gamma log(p_y)$ \\
+类别平衡损失 \cite{Cui_2019} & $\mathcal{L}_{cb}=-\frac{1-\gamma}{1-\gamma^{n_y}}log(p_y)$ \\
+平衡 Softmax 损失 \cite{ren2020balanced} & $\mathcal{L}_{bs}=-log(\frac{\pi_y exp(z_y)}{\sum_j \pi_j exp(z_j)})$ \\
+均衡损失 \cite{Tan_2020} & $\mathcal{L}_{eq}=-log(\frac{exp(z_y)}{\sum_j w_j exp(z_j)})$ \\
+LDAM 损失 \cite{cao2019learning} & $\mathcal{L}_{ldam}=-log(\frac{exp(z_y-\Delta_y)}{\sum_j exp(z_j-\Delta_j)})$ \\
+\bottomrule
+\end{tabular}%
+\label{tab:3}%
+\end{table}%

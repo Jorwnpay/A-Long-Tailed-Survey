@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\scriptsize
+\centering
+\captionsetup{font=footnotesize}
+\caption{\textbf{长尾数据集统计。“Cls.”表示图像分类；“Det.”表示目标检测；“Seg.”表示实例分割。}}
+\begin{tabular}{llccc}
+\toprule
+任务  & 数据集 &  \# 类别 & \# 训练数据 & \# 测试数据 \\
+\midrule
+\multirow{4}[2]{*}{Cls.} & ImageNet-LT \cite{Liu_2019}  & 1,000 & 115,846 & 50,000 \\
+& CIFAR100-LT \cite{cao2019learning}  & 100   & 50,000 & 10,000 \\
+& Places-LT \cite{Liu_2019}  & 365   & 62,500 & 36,500 \\
+& iNaturalist 2018 \cite{Van_Horn_2018}  & 8,142 & 437,513 & 24,426 \\
+\midrule
+\multirow{2}[2]{*}{Det./Seg.} & LVIS v0.5 \cite{Gupta_2019}  & 1,230 & 57,000 & 20,000 \\
+& LVIS v1 \cite{Gupta_2019}  & 1,203 & 100,000 & 19,800 \\
+\midrule
+\multirow{2}[2]{*}{多标签 Cls.} & VOC-LT \cite{Wu_2020_dist}  & 20    & 1,142 & 4,952 \\
+& COCO-LT \cite{Wu_2020_dist}  & 80    & 1,909 & 5,000 \\
+\midrule
+视频 Cls.  & VideoLT \cite{Zhang_2021_video}  & 1,004 & 179,352 & 51,244 \\
+\bottomrule
+\end{tabular}%
+\label{tab:1}%
+\end{table}%

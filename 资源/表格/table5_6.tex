@@ -1,0 +1,94 @@
+\begin{table*}[!t]
+\centering
+
+\begin{minipage}[t]{0.48\textwidth}
+\makeatletter\def\@captype{table}
+\footnotesize
+\centering
+\captionsetup{font=footnotesize}
+\caption{在ImageNet-LT上训练90或200个周期的准确度（Acc）、较高的参考精度（UA）、
+相对准确度（RA）结果。在该表中，CR、IA和MI分别表示类别重平衡、信息增强和模块改进。}
+\resizebox{!}{3.9cm}{
+\begin{tabular}{llccccccc}
+\toprule
+\multicolumn{1}{l}{\multirow{2}[4]{*}{类型}} & \multirow{2}[4]{*}{方法} & \multicolumn{3}{c}{90 epochs } &       & \multicolumn{3}{c}{200 epochs} \\
+\cmidrule{3-5}\cmidrule{7-9}          &       & Acc   & UA    & RA    &       & Acc   & UA    & RA  \\
+\midrule
+\multicolumn{1}{l}{基线} & Softmax  & 45.5  & 57.3  & 79.4  &       & 46.8  & 57.8  & 81.0  \\
+\midrule
+\multicolumn{1}{c}{\multirow{7}[2]{*}{CR}} & 加权 Softmax & 47.9  & 57.3  & 83.6  &       & 49.1  & 57.8  & 84.9  \\
+& 焦点损失 \cite{Lin_2017_focal}  & 45.8  & 57.3  & 79.9  &       & 47.2  & 57.8  & 81.7  \\
+& LDAM \cite{cao2019learning}  & 51.1  & 57.3  & 89.2  &       & 51.1  & 57.8  & 88.4  \\
+& ESQL \cite{Tan_2020}  & 47.3  & 57.3  & 82.5  &       & 48.0  & 57.8  & 83.0  \\
+& UNO-IC \cite{tian2020posterior}  & 45.7  & 57.3  & 81.4  &       & 46.8  & 58.6  & 79.9  \\
+& 平衡 Softmax \cite{ren2020balanced}   & 50.8  & 57.3  & 88.7  &       & 51.2  & 57.8  & 88.6  \\
+& LADE \cite{Hong_2021}  & 51.5  & 57.8  & 89.1  &       & 51.6  & 57.8  & 89.3  \\
+\midrule
+\multicolumn{1}{c}{\multirow{2}[2]{*}{IA}} & SSP \cite{yang2020rethinking} & 53.1  & 59.6  & 89.1  &       & 53.3  & 59.9  & 89.0  \\
+& RSG \cite{Wang_2021_rsg}  & 49.6  & 57.3  & 86.7  &       & 52.9  & 57.8  & 91.5  \\
+\midrule
+\multicolumn{1}{c}{\multirow{13}[6]{*}{MI}} & OLTR \cite{Liu_2019}  & 46.7  & 57.3  & 81.5  &       & 48.0  & 58.4  & 82.2  \\
+& PaCo \cite{Cui_2021}  & 52.7  & 58.7  & 89.9  &       & 54.4  & 59.6  & 91.3  \\
+& De-confound \cite{tang2020long}  & 51.8  & 57.7  & 89.8  &       & 51.3  & 57.8  & 88.8  \\
+\cmidrule{2-9}          & Decouple-IB-CRT \cite{kang2019decoupling}  & 49.9  & 57.3  & 87.1  &       & 50.3  & 58.1  & 86.6  \\
+& Decouple-CB-CRT \cite{kang2019decoupling} & 44.9  & 57.3  & 78.4  &       & 43.0  & 57.8  & 74.4  \\
+& Decouple-SR-CRT \cite{kang2019decoupling}  & 49.3  & 57.3  & 86.0  &       & 48.5  & 57.8  & 83.9  \\
+& Decouple-PB-CRT \cite{kang2019decoupling}  & 48.4  & 57.3  & 84.5  &       & 48.1  & 57.8  & 83.2  \\
+& MiSLAS \cite{Zhong_2021}  & 51.4  & 58.3  & 88.2  &       & 53.4  & 59.7  & 89.4  \\
+\cmidrule{2-9}          & BBN \cite{Zhou_2020}  & 41.2  & 57.3  & 71.9  &       & 44.7  & 57.8  & 77.3  \\
+& LFME \cite{Xiang_2020}  & 47.0  & 57.3  & 82.0  &       & 48.0  & 57.8  & 83.0  \\
+& ResLT \cite{Cui_2022}  & 51.6  & 57.3  & 90.1  &       & 53.2  & 58.1  & 91.6  \\
+& RIDE \cite{wang2020long}  & 55.5  & 60.2  & 92.2  &       & 56.1  & 60.9  & 92.1  \\
+& TADE \cite{zhang2021test} & \textbf{57.3} & \textbf{61.9} & \textbf{92.6} &       & \textbf{58.8} & \textbf{63.2} & \textbf{93.0} \\
+\bottomrule
+\end{tabular}}%
+\label{tab:5}%
+\end{minipage}
+\begin{minipage}[t]{0.48\textwidth}
+\makeatletter\def\@captype{table}
+\footnotesize
+\centering
+\captionsetup{font=footnotesize}
+\caption{在ImageNet-LT上训练90或200个周期得到的头部类、中间类、尾部类的准确度（Acc）结果。
+在该表中，WS表示加权softmax，BS表示平衡softmax。方法的类型与表5相同。}
+\resizebox{!}{3.9cm}{
+\begin{tabular}{lccccccc}
+\toprule
+\multirow{2}[4]{*}{方法} & \multicolumn{3}{c}{90 epochs } &       & \multicolumn{3}{c}{200 epochs} \\
+\cmidrule{2-4}\cmidrule{6-8}          & 头部  & 中间 & 尾部  &       & 头部  & 中间 & 尾部  \\
+\midrule
+Softmax  & 66.5  & 39.0  & 8.6   &       & 66.9  & 40.4  & 12.6  \\
+\midrule
+WS    & 66.3  & 42.2  & 15.6  &       & 57.9  & 46.2  & 34.0  \\
+焦点损失 \cite{Lin_2017_focal}  & 66.9  & 39.2  & 9.2   &       & 67.0  & 41.0  & 13.1  \\
+LDAM \cite{cao2019learning}  & 62.3  & 47.4  & 32.5  &       & 60.0  & 49.2  & 31.9  \\
+ESQL \cite{Tan_2020}  & 62.5  & 44.0  & 15.7  &       & 63.1  & 44.6  & 17.2  \\
+UNO-IC \cite{tian2020posterior}  & 66.3  & 38.7  & 9.3   &       & 67.0  & 40.3  & 12.7  \\
+BS \cite{ren2020balanced}   & 61.7  & 48.0  & 29.9  &       & 62.4  & 47.7  & 32.1  \\
+LADE \cite{Hong_2021}  & 62.2  & 48.6  & 31.8  &       & 63.1  & 47.7  & 32.7  \\
+\midrule
+SSP \cite{yang2020rethinking} & 65.6  & 49.6  & 30.3  &       & 67.3  & 49.1  & 28.3  \\
+RSG \cite{Wang_2021_rsg}  & \textbf{68.7} & 43.7  & 16.2  &       & 65.0  & 49.4  & 31.1  \\
+\midrule
+OLTR \cite{Liu_2019}  & 58.2  & 45.5  & 19.5  &       & 62.9  & 44.6  & 18.8  \\
+PaCo \cite{Cui_2021}  & 59.7  & 51.7  & 36.6  &       & 63.2  & 51.6  & 39.2  \\
+De-confound \cite{tang2020long}  & 63.0  & 48.5  & 31.4  &       & 64.9  & 46.9  & 28.1  \\
+\midrule
+IB-CRT \cite{kang2019decoupling}  & 62.6  & 46.2  & 26.7  &       & 64.2  & 46.1  & 26.0  \\
+CB-CRT \cite{kang2019decoupling} & 62.4  & 39.3  & 14.9  &       & 60.9  & 36.9  & 13.5  \\
+SR-CRT \cite{kang2019decoupling}  & 64.1  & 43.9  & 19.5  &       & 66.0  & 42.3  & 18.0  \\
+PB-CRT \cite{kang2019decoupling}  & 63.9  & 45.0  & 23.2  &       & 64.9  & 43.1  & 20.6  \\
+MiSLAS \cite{Zhong_2021}  & 62.1  & 48.9  & 32.6  &       & 65.3  & 50.6  & 33.0  \\
+\midrule
+BBN \cite{Zhou_2020}  & 40.0  & 43.3  & 40.8  &       & 43.3  & 45.9  & \textbf{43.7} \\
+LFME \cite{Xiang_2020}  & 60.6  & 43.5  & 22.0  &       & 64.1  & 42.3  & 22.8  \\
+ResLT \cite{Cui_2022}  & 57.8  & 50.4  & 40.0  &       & 61.6  & 51.4  & 38.8  \\
+RIDE \cite{wang2020long}  & 66.9  & 52.3  & 34.5  &       & \textbf{67.9} & 52.3  & 36.0  \\
+TADE \cite{zhang2021test} & 65.3  & \textbf{55.2} & \textbf{42.0} &       & 67.2  & \textbf{55.3} & 40.0  \\
+\bottomrule
+\end{tabular}}%
+\label{tab:6}%
+\end{minipage}
+% \end{minipage}
+
+\end{table*}

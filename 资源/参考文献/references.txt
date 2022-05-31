@@ -1,0 +1,172 @@
+[1]Y. LeCun, Y. Bengio, and G. Hinton, "Deep learning," Nature, vol. 521, no. 7553, pp. 436-444, 2015.
+[2]I. Goodfellow, Y. Bengio, and A. Courville, Deep learning. MIT press, 2016.
+[3]A. Voulodimos, N. Doulamis, A. Doulamis, and E. Protopapadakis, "Deep learning for computer vision: A brief review," Computational Intelligence and Neuroscience, 2018.
+[4]C. Dong, C. C. Loy, K. He, and X. Tang, "Image super-resolution using deep convolutional networks," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 38, no. 2, pp. 295-307, 2015.
+[5]Z. Wang, J. Chen, and S. C. Hoi, "Deep learning for image super- resolution: A survey," IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
+[6]A. Krizhevsky, I. Sutskever, and G. E. Hinton, "Imagenet classifica- tion with deep convolutional neural networks," Advances in Neural Information Processing Systems, vol. 25, pp. 1097-1105, 2012.
+[7]S. Ren, K. He, R. Girshick, and J. Sun, "Faster r-cnn: towards real-time object detection with region proposal networks," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 39, no. 6, pp. 1137-1149, 2016.
+[8]E. Shelhamer, J. Long, and T. Darrell, "Fully convolutional networks for semantic segmentation." IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 39, no. 4, pp. 640-651, 2016.
+[9]Y. Bengio, Y. LeCun, and G. Hinton, "Deep learning for ai," Communi- cations of the ACM, vol. 64, no. 7, pp. 58-65, 2021.
+[10]K. He, X. Zhang, S. Ren, and J. Sun, "Deep residual learning for image recognition," in Computer Vision and Pattern Recognition, 2016.
+[11]C. Szegedy, A. Toshev, and D. Erhan, "Deep neural networks for object detection," 2013.
+[12]R. Girshick, J. Donahue, T. Darrell, and J. Malik, "Rich feature hierarchies for accurate object detection and semantic segmentation," in Computer Vision and Pattern Recognition, 2014, pp. 580-587.
+[13]B. Kang, Y. Li, S. Xie, Z. Yuan, and J. Feng, "Exploring balanced feature spaces for representation learning," in International Conference on Learning Representations, 2021.
+[14]A. K. Menon, S. Jayasumana, A. S. Rawat, H. Jain, A. Veit, and S. Kumar, "Long-tail learning via logit adjustment," in International Conference on Learning Representations, 2021.
+[15]Z. Liu, Z. Miao, X. Zhan, J. Wang, B. Gong, and S. X. Yu, "Large- scale long-tailed recognition in an open world," in Computer Vision and Pattern Recognition, 2019, pp. 2537-2546.
+[16]Y. Cui, M. Jia, T.-Y. Lin, Y. Song, and S. Belongie, "Class-balanced loss based on effective number of samples," in Computer Vision and Pattern Recognition, 2019, pp. 9268-9277.
+[17]X. Wang, L. Lian, Z. Miao, Z. Liu, and S. X. Yu, "Long-tailed recog- nition by routing diverse distribution-aware experts," in International Conference on Learning Representations, 2021.
+[18]K. Cao, C. Wei, A. Gaidon, N. Arechiga, and T. Ma, "Learning imbalanced datasets with label-distribution-aware margin loss," in Advances in Neural Information Processing Systems, 2019.
+[19]J. Tan, C. Wang, B. Li, Q. Li, W. Ouyang, C. Yin, and J. Yan, "Equalization loss for long-tailed object recognition," in Computer Vision and Pattern Recognition, 2020, pp. 11 662-11 671.
+[20]V. Vapnik, "Principles of risk minimization for learning theory," in Advances in Neural Information Processing Systems, 1992, pp. 831-838.
+[21]X. Zhang, Z. Fang, Y. Wen, Z. Li, and Y. Qiao, "Range loss for deep face recognition with long-tailed training data," in International Conference on Computer Vision, 2017, pp. 5409-5418.
+[22]D. Cao, X. Zhu, X. Huang, J. Guo, and Z. Lei, "Domain balancing: Face recognition on long-tailed domains," in Computer Vision and Pattern Recognition, 2020, pp. 5671-5679.
+[23]G. Van Horn, O. Mac Aodha, Y. Song, Y. Cui, C. Sun, A. Shepard, H. Adam, P. Perona, and S. Belongie, "The inaturalist species classifica- tion and detection dataset," in Computer Vision and Pattern Recognition, 2018, pp. 8769-8778.
+[24]Z. Miao, Z. Liu, K. M. Gaynor, M. S. Palmer, S. X. Yu, and W. M. Getz, "Iterative human and automated identification of wildlife images," arXiv:2105.02320, 2021.
+[25]L. Ju, X. Wang, L. Wang, T. Liu, X. Zhao, T. Drummond, D. Mahapatra, and Z. Ge, "Relational subsets knowledge distillation for long-tailed retinal diseases recognition," arXiv:2104.11057, 2021.
+[26]R. He, J. Yang, and X. Qi, "Re-distributing biased pseudo labels for semi-supervised semantic segmentation: A baseline investigation," in International Conference on Computer Vision, 2021.
+[27]W. Yu, T. Yang, and C. Chen, "Towards resolving the challenge of long-tail distribution in uav images for object detection," in IEEE Winter Conference on Applications of Computer Vision, 2021, pp. 3258-3267.
+[28]M. A. Jamal, M. Brown, M.-H. Yang, L. Wang, and B. Gong, "Rethinking class-balanced methods for long-tailed visual recognition from a domain adaptation perspective," in Computer Vision and Pattern Recognition, 2020, pp. 7610-7619.
+[29]S. Zhang, Z. Li, S. Yan, X. He, and J. Sun, "Distribution alignment: A unified framework for long-tail visual recognition," in Computer Vision and Pattern Recognition, 2021, pp. 2361-2370.
+[30]Y. Zhang, B. Hooi, L. Hong, and J. Feng, "Test-agnostic long-tailed recog- nition by test-time aggregating diverse experts with self-supervision," arXiv:2107.09249, 2021.
+[31]Y. Hong, S. Han, K. Choi, S. Seo, B. Kim, and B. Chang, "Disentangling label distribution for long-tailed visual recognition," in Computer Vision and Pattern Recognition, 2021.
+[32]B. Kang, S. Xie, M. Rohrbach, Z. Yan, A. Gordo, J. Feng, and Y. Kalantidis, "Decoupling representation and classifier for long-tailed recognition," in International Conference on Learning Representations, 2020.
+[33]C. Feng, Y. Zhong, and W. Huang, "Exploring classification equilibrium in long-tailed object detection," in International Conference on Computer Vision, 2021.
+[34]T. Wang, Y. Li, B. Kang, J. Li, J. Liew, S. Tang, S. Hoi, and J. Feng, "The devil is in classification: A simple framework for long-tail instance segmentation," in European Conference on Computer Vision, 2020.
+[35]Z. Weng, M. G. Ogut, S. Limonchik, and S. Yeung, "Unsupervised discovery of the long-tail in instance segmentation using hierarchical self-supervision," in Computer Vision and Pattern Recognition, 2021.
+[36]A. Gupta, P. Dollar, and R. Girshick, "Lvis: A dataset for large vocabulary instance segmentation," in Computer Vision and Pattern Recognition, 2019, pp. 5356-5364.
+[37]T. Wu, Q. Huang, Z. Liu, Y. Wang, and D. Lin, "Distribution-balanced loss for multi-label classification in long-tailed datasets," in European Conference on Computer Vision, 2020, pp. 162-178.
+[38]X. Zhang, Z. Wu, Z. Weng, H. Fu, J. Chen, Y.-G. Jiang, and L. Davis, "Videolt: Large-scale long-tailed video recognition," in International Conference on Computer Vision, 2021.
+[39]J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, "Imagenet: A large-scale hierarchical image database," in Computer Vision and Pattern Recognition, 2009, pp. 248-255.
+[40]A. Krizhevsky, G. Hinton et al., "Learning multiple layers of features from tiny images," 2009.
+[41]B. Zhou, A. Lapedriza, J. Xiao, A. Torralba, and A. Oliva, "Learning deep features for scene recognition using places database," Advances in Neural Information Processing Systems, vol. 27, pp. 487-495, 2014.
+[42]M. Everingham, S. A. Eslami, L. Van Gool, C. K. Williams, J. Winn, and A. Zisserman, "The pascal visual object classes challenge: A retrospective," International Journal of Computer Vision, vol. 111, no. 1, pp. 98-136, 2015.
+[43]T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick, "Microsoft coco: Common objects in context," in European Conference on Computer Vision, 2014.
+[44]H. Rezatofighi, N. Tsoi, J. Gwak, A. Sadeghian, I. Reid, and S. Savarese, "Generalized intersection over union: A metric and a loss for bounding box regression," in Computer Vision and Pattern Recognition, 2019.
+[45]S. Xie, R. Girshick, P. Dollár, Z. Tu, and K. He, "Aggregated residual transformations for deep neural networks," in Computer Vision and Pattern Recognition, 2017, pp. 1492-1500.
+[46]K. He, G. Gkioxari, P. Dollar, and R. Girshick, "Mask r-cnn," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 2, pp. 386-397, 2020.
+[47]T.-Y. Lin, P. Dollár, R. Girshick, K. He, B. Hariharan, and S. Belongie, "Feature pyramid networks for object detection," in Computer Vision and Pattern Recognition, 2017, pp. 2117-2125.
+[48]B. Zhou, Q. Cui, X.-S. Wei, and Z.-M. Chen, "Bbn: Bilateral-branch network with cumulative learning for long-tailed visual recognition," in Computer Vision and Pattern Recognition, 2020, pp. 9719-9728.
+[49]H. He and E. A. Garcia, "Learning from imbalanced data," IEEE Transactions on Knowledge and Data Engineering, vol. 21, no. 9, pp. 1263-1284, 2009.
+[50]J. Snell, K. Swersky, and R. Zemel, "Prototypical networks for few-shot learning," Advances in Neural Information Processing Systems, 2017.
+[51]F. Sung, Y. Yang, L. Zhang, T. Xiang, P. H. Torr, and T. M. Hospedales, "Learning to compare: Relation network for few-shot learning," in Computer Vision and Pattern Recognition, 2018, pp. 1199-1208.
+[52]Q. Sun, Y. Liu, T.-S. Chua, and B. Schiele, "Meta-transfer learning for few-shot learning," in Computer Vision and Pattern Recognition, 2019.
+[53]Y. Wang, Q. Yao, J. T. Kwok, and L. M. Ni, "Generalizing from a few examples: A survey on few-shot learning," ACM Computing Surveys, vol. 53, no. 3, pp. 1-34, 2020.
+[54]D. Krueger, E. Caballero et al., "Out-of-distribution generalization via risk extrapolation," in International Conference on Machine Learning, 2021, pp. 5815-5826.
+[55]Z. Shen, J. Liu, Y. He, X. Zhang, R. Xu, H. Yu, and P. Cui, "Towards out-of-distribution generalization: A survey," arXiv:2108.13624, 2021.
+[56]S. J. Pan, I. W. Tsang, J. T. Kwok, and Q. Yang, "Domain adaptation via transfer component analysis," IEEE Transactions on Neural Networks, vol. 22, no. 2, pp. 199-210, 2010.
+[57]E. Tzeng, J. Hoffman, K. Saenko, and T. Darrell, "Adversarial discrimi- native domain adaptation," in Computer Vision and Pattern Recognition, 2017, pp. 7167-7176.
+[58]Y. Zhang, H. Chen, Y. Wei, P. Zhao, J. Cao, X. Fan, X. Lou, H. Liu, J. Hou, X. Han et al., "From whole slide imaging to microscopy: Deep microscopy adaptation network for histopathology cancer image classification," in International Conference on Medical Image Computing and Computer-Assisted Intervention, 2019, pp. 360-368.
+[59]Y. Zhang, Y. Wei et al., "Collaborative unsupervised domain adaptation for medical image diagnosis," IEEE Transactions on Image Processing, 2020.
+[60]Z. Qiu, Y. Zhang, H. Lin, S. Niu, Y. Liu, Q. Du, and M. Tan, "Source-free domain adaptation via avatar prototype generation and adaptation," in International Joint Conference on Artificial Intelligence, 2021.
+[61]H. Wu, H. Zhu, Y. Yan, J. Wu, Y. Zhang, and M. K. Ng, "Heterogeneous domain adaptation by information capturing and distribution matching," IEEE Transactions on Image Processing, vol. 30, pp. 6364-6376, 2021.
+[62]D. Li, Y. Yang, Y.-Z. Song, and T. M. Hospedales, "Deeper, broader and artier domain generalization," in International Conference on Computer Vision, 2017, pp. 5542-5550.
+[63]H. Li, S. J. Pan, S. Wang, and A. C. Kot, "Domain generalization with adversarial feature learning," in Computer Vision and Pattern Recognition, 2018, pp. 5400-5409.
+[64]L. Neal, M. Olson, X. Fern, W.-K. Wong, and F. Li, "Open set learning with counterfactual images," in European Conference on Computer Vision, 2018, pp. 613-628.
+[65]Y. Fu, X. Wang, H. Dong, Y.-G. Jiang, M. Wang, X. Xue, and L. Sigal, "Vocabulary-informed zero-shot and open-set learning," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 12, pp. 3136-3152, 2019.
+[66]C. Huang, Y. Li, C. C. Loy, and X. Tang, "Learning deep represen- tation for imbalanced classification," in Computer Vision and Pattern Recognition, 2016.
+[67]W. Ouyang, X. Wang, C. Zhang, and X. Yang, "Factors in finetuning deep model for object detection with long-tail distribution," in Computer Vision and Pattern Recognition, 2016, pp. 864-873.
+[68]T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollár, "Focal loss for dense object detection," in International Conference on Computer Vision, 2017, pp. 2980-2988.
+[69]Q. Dong, S. Gong, and X. Zhu, "Class rectification hard mining for imbalanced deep learning," in International Conference on Computer Vision, 2017, pp. 1851-1860.
+[70]Y.-X. Wang, D. Ramanan, and M. Hebert, "Learning to model the tail," in Advances in Neural Information Processing Systems, 2017.
+[71]Y. Cui, Y. Song, C. Sun, A. Howard, and S. Belongie, "Large scale fine-grained categorization and domain-specific transfer learning," in Computer Vision and Pattern Recognition, 2018, pp. 4109-4118.
+[72]S. Khan, M. Hayat, S. W. Zamir, J. Shen, and L. Shao, "Striking the right balance with uncertainty," in Computer Vision and Pattern Recognition, 2019, pp. 103-112.
+[73]X. Yin, X. Yu, K. Sohn, X. Liu, and M. Chandraker, "Feature transfer learning for face recognition with under-represented data," in Computer Vision and Pattern Recognition, 2019, pp. 5704-5713.
+[74]Y. Zhong, W. Deng, M. Wang, J. Hu, J. Peng, X. Tao, and Y. Huang, "Unequal-training for deep face recognition with long-tailed noisy data," in Computer Vision and Pattern Recognition, 2019, pp. 7812-7821.
+[75]Y. Wang, W. Gan, J. Yang, W. Wu, and J. Yan, "Dynamic curriculum learning for imbalanced data classification," in International Conference on Computer Vision, 2019, pp. 5017-5026.
+[76]J. Shu, Q. Xie, L. Yi, Q. Zhao, S. Zhou, Z. Xu, and D. Meng, "Meta-weight-net: Learning an explicit mapping for sample weighting," Advances in Neural Information Processing Systems, 2019.
+[77]X. Hu, Y. Jiang, K. Tang, J. Chen, C. Miao, and H. Zhang, "Learning to segment the tail," in Computer Vision and Pattern Recognition, 2020.
+[78]Y. Li, T. Wang, B. Kang, S. Tang, C. Wang, J. Li, and J. Feng, "Overcoming classifier imbalance for long-tail object detection with balanced group softmax," in Computer Vision and Pattern Recognition, 2020, pp. 10 991-11 000.
+[79]J. Kim, J. Jeong, and J. Shin, "M2m: Imbalanced classification via major- to-minor translation," in Computer Vision and Pattern Recognition, 2020.
+[80]J. Liu, Y. Sun, C. Han, Z. Dou, and W. Li, "Deep representation learning on long-tailed data: A learnable embedding augmentation perspective," in Computer Vision and Pattern Recognition, 2020.
+[81]L. Zhu and Y. Yang, "Inflated episodic memory with region self-attention for long-tailed visual recognition," in Computer Vision and Pattern Recognition, 2020, pp. 4344-4353.
+[82]C. D. Kim, J. Jeong, and G. Kim, "Imbalanced continual learning with partitioning reservoir sampling," in European Conference on Computer Vision, 2020, pp. 411-428.
+[83]P. Chu, X. Bian, S. Liu, and H. Ling, "Feature space augmentation for long-tailed data," in European Conference on Computer Vision, 2020.
+[84]L. Xiang, G. Ding, and J. Han, "Learning from multiple experts: Self- paced knowledge distillation for long-tailed classification," in European Conference on Computer Vision, 2020, pp. 247-263.
+[85]T.-Y. Wu, P. Morgado, P. Wang, C.-H. Ho, and N. Vasconcelos, "Solving long-tailed recognition with deep realistic taxonomic classifier," in European Conference on Computer Vision, 2020, pp. 171-189.
+[86]R. Jiawei, C. Yu, X. Ma, H. Zhao, S. Yi et al., "Balanced meta-softmax for long-tailed visual recognition," in Advances in Neural Information Processing Systems, 2020.
+[87]J. Tian, Y.-C. Liu, N. Glaser, Y.-C. Hsu, and Z. Kira, "Posterior re- calibration for imbalanced datasets," in Advances in Neural Information Processing Systems, 2020.
+[88]K. Tang, J. Huang, and H. Zhang, "Long-tailed classification by keeping the good and removing the bad momentum causal effect," Advances in Neural Information Processing Systems, vol. 33, 2020.
+[89]Y. Yang and Z. Xu, "Rethinking the value of labels for improving class- imbalanced learning," in Advances in Neural Information Processing Systems, 2020.
+[90]H. Guo and S. Wang, "Long-tailed multi-label visual recognition by collaborative training on uniform and re-balanced samplings," in Computer Vision and Pattern Recognition, 2021, pp. 15 089-15 098.
+[91]J. Tan, X. Lu, G. Zhang, C. Yin, and Q. Li, "Equalization loss v2: A new gradient balance approach for long-tailed object detection," in Computer Vision and Pattern Recognition, 2021, pp. 1685-1694.
+[92]J. Wang, W. Zhang, Y. Zang, Y. Cao, J. Pang, T. Gong, K. Chen, Z. Liu, C. C. Loy, and D. Lin, "Seesaw loss for long-tailed instance segmentation," in Computer Vision and Pattern Recognition, 2021.
+[93]T. Wang, Y. Zhu, C. Zhao, W. Zeng, J. Wang, and M. Tang, "Adaptive class suppression loss for long-tail object detection," in Computer Vision and Pattern Recognition, 2021, pp. 3103-3112.
+[94]Z. Deng, H. Liu, Y. Wang, C. Wang, Z. Yu, and X. Sun, "Pml: Progressive margin loss for long-tailed age classification," in Computer Vision and Pattern Recognition, 2021, pp. 10 503-10 512.
+[95]T. Wu, Z. Liu, Q. Huang, Y. Wang, and D. Lin, "Adversarial robust- ness under long-tailed distribution," in Computer Vision and Pattern Recognition, 2021, pp. 8659-8668.
+[96]Z. Zhong, J. Cui, S. Liu, and J. Jia, "Improving calibration for long-tailed recognition," in Computer Vision and Pattern Recognition, 2021.
+[97]C. Wei, K. Sohn, C. Mellina, A. Yuille, and F. Yang, "Crest: A class- rebalancing self-training framework for imbalanced semi-supervised learning," in Computer Vision and Pattern Recognition, 2021.
+[98]S. Changpinyo, P. Sharma, N. Ding, and R. Soricut, "Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts," in Computer Vision and Pattern Recognition, 2021.
+[99]J. Wang, T. Lukasiewicz, X. Hu, J. Cai, and Z. Xu, "Rsg: A simple but effective module for learning imbalanced datasets," in Computer Vision and Pattern Recognition, 2021, pp. 3784-3793.
+[100]S. Li, K. Gong, C. H. Liu, Y. Wang, F. Qiao, and X. Cheng, "Metasaug: Meta semantic augmentation for long-tailed visual recognition," in Computer Vision and Pattern Recognition, 2021, pp. 5212-5221.
+[101]P. Wang, K. Han, X.-S. Wei, L. Zhang, and L. Wang, "Contrastive learning based hybrid networks for long-tailed image classification," in Computer Vision and Pattern Recognition, 2021, pp. 943-952.
+[102]B. Liu, H. Li, H. Kang, G. Hua, and N. Vasconcelos, "Gistnet: a geometric structure transfer network for long-tailed recognition," in International Conference on Computer Vision, 2021.
+[103]Y. Zang, C. Huang, and C. C. Loy, "Fasa: Feature augmentation and sampling adaptation for long-tailed instance segmentation," in International Conference on Computer Vision, 2021.
+[104]J. Cai, Y. Wang, and J.-N. Hwang, "Ace: Ally complementary experts for solving long-tailed recognition in one-shot," in International Conference on Computer Vision, 2021.
+[105]S. Park, J. Lim, Y. Jeon, and J. Y. Choi, "Influence-balanced loss for imbalanced visual classification," in International Conference on Computer Vision, 2021.
+[106]T. Li, L. Wang, and G. Wu, "Self supervision to distillation for long- tailed visual recognition," in International Conference on Computer Vision, 2021.
+[107]Y.-Y. He, J. Wu, and X.-S. Wei, "Distilling virtual examples for long- tailed recognition," in International Conference on Computer Vision, 2021.
+[108]C. Zhang, T.-Y. Pan, Y. Li, H. Hu, D. Xuan, S. Changpinyo, B. Gong, and W.-L. Chao, "Mosaicos: A simple and effective use of object-centric images for long-tailed object detection," in International Conference on Computer Vision, 2021.
+[109]J. Cui, Z. Zhong, S. Liu, B. Yu, and J. Jia, "Parametric contrastive learning," in International Conference on Computer Vision, 2021.
+[110]D. Samuel and G. Chechik, "Distributional robustness loss for long-tail learning," in International Conference on Computer Vision, 2021.
+[111]A. Desai, T.-Y. Wu, S. Tripathi, and N. Vasconcelos, "Learning of visual relations: The devil is in the tails," in International Conference on Computer Vision, 2021.
+[112]N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P. Kegelmeyer, "Smote: synthetic minority over-sampling technique," Journal of artificial intelligence research, vol. 16, pp. 321-357, 2002.
+[113]A. Estabrooks, T. Jo, and N. Japkowicz, "A multiple resampling method for learning from imbalanced data sets," Computational Intelligence, vol. 20, no. 1, pp. 18-36, 2004.
+[114]H. Han, W.-Y. Wang, and B.-H. Mao, "Borderline-smote: a new over- sampling method in imbalanced data sets learning," in International Conference on Intelligent Computing, 2005, pp. 878-887.
+[115]X.-Y. Liu, J. Wu, and Z.-H. Zhou, "Exploratory undersampling for class-imbalance learning," IEEE Transactions on Systems, Man, and Cybernetics, vol. 39, no. 2, pp. 539-550, 2008.
+[116]Z. Zhang and T. Pfister, "Learning fast sample re-weighting without reward data," in International Conference on Computer Vision, 2021.
+[117]D. Mahajan, R. Girshick, V. Ramanathan, K. He, M. Paluri, Y. Li, A. Bharambe, and L. Van Der Maaten, "Exploring the limits of weakly supervised pretraining," in European conference on computer vision, 2018, pp. 181-196.
+[118]A. Hermans, L. Beyer, and B. Leibe, "In defense of the triplet loss for person re-identification," arXiv:1703.07737, 2017.
+[119]C. Elkan, "The foundations of cost-sensitive learning," in International Joint Conference on Artificial Intelligence, 2001.
+[120]Z.-H. Zhou and X.-Y. Liu, "Training cost-sensitive neural networks with methods addressing the class imbalance problem," IEEE Transactions on Knowledge and Data Engineering, vol. 18, no. 1, pp. 63-77, 2005.
+[121]Y. Sun, M. S. Kamel, A. K. Wong, and Y. Wang, "Cost-sensitive boosting for classification of imbalanced data," Pattern Recognition, vol. 40, no. 12, pp. 3358-3378, 2007.
+[122]P. Zhao, Y. Zhang, M. Wu, S. C. Hoi, M. Tan, and J. Huang, "Adaptive cost-sensitive online classification," IEEE Transactions on Knowledge and Data Engineering, vol. 31, no. 2, pp. 214-228, 2018.
+[123]Y. Zhang, P. Zhao, J. Cao, W. Ma, J. Huang, Q. Wu, and M. Tan, "Online adaptive asymmetric active learning for budgeted imbalanced data," in SIGKDD International Conference on Knowledge Discovery & Data Mining, 2018, pp. 2768-2777.
+[124]Y. Zhang, P. Zhao, S. Niu, Q. Wu, J. Cao, J. Huang, and M. Tan, "Online adaptive asymmetric active learning with limited budgets," IEEE Transactions on Knowledge and Data Engineering, 2019.
+[125]H.-J. Ye, H.-Y. Chen, D.-C. Zhan, and W.-L. Chao, "Identifying and compensating for feature deviation in imbalanced deep learning," arXiv:2001.01385, 2020.
+[126]T.-I. Hsieh, E. Robb, H.-T. Chen, and J.-B. Huang, "Droploss for long- tail instance segmentation," in AAAI Conference on Artificial Intelligence, vol. 35, no. 2, 2021, pp. 1549-1557.
+[127]F. Wang, J. Cheng, W. Liu, and H. Liu, "Additive margin softmax for face verification," IEEE Signal Processing Letters, vol. 25, no. 7, pp. 926-930, 2018.
+[128]V. Koltchinskii and D. Panchenko, "Empirical margin distributions and bounding the generalization error of combined classifiers," The Annals of Statistics, vol. 30, no. 1, pp. 1-50, 2002.
+[129]F. Provost, "Machine learning from imbalanced data sets 101," in AAAI Workshop on Imbalanced Data Sets, vol. 68, no. 2000, 2000, pp. 1-3.
+[130]S. J. Pan and Q. Yang, "A survey on transfer learning," IEEE Transactions on Knowledge and Data Engineering, vol. 22, no. 10, pp. 1345-1359, 2009.
+[131]C. Tan, F. Sun, T. Kong, W. Zhang, C. Yang, and C. Liu, "A survey on deep transfer learning," in International Conference on Artificial Neural Networks, 2018, pp. 270-279.
+[132]B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba, "Learning deep features for discriminative localization," in Computer Vision and Pattern Recognition, 2016, pp. 2921-2929.
+[133]D. Erhan, A. Courville, Y. Bengio, and P. Vincent, "Why does unsuper- vised pre-training help deep learning?" in International Conference on Artificial Intelligence and Statistics, 2010, pp. 201-208.
+[134]K. He, R. Girshick, and P. Dollár, "Rethinking imagenet pre-training," in International Conference on Computer Vision, 2019, pp. 4918-4927.
+[135]D. Hendrycks, K. Lee, and M. Mazeika, "Using pre-training can improve model robustness and uncertainty," in International Conference on Machine Learning, 2019, pp. 2712-2721.
+[136]B. Zoph, G. Ghiasi, T.-Y. Lin, Y. Cui, H. Liu, E. D. Cubuk, and Q. Le, "Rethinking pre-training and self-training," Advances in Neural Information Processing Systems.
+[137]Y. Zhang, B. Hooi, D. Hu, J. Liang, and J. Feng, "Unleashing the power of contrastive self-supervised visual models via contrast-regularized fine-tuning," in Advances in Neural Information Processing Systems, 2021.
+[138]K. He, H. Fan, Y. Wu, S. Xie, and R. Girshick, "Momentum contrast for unsupervised visual representation learning," in Computer Vision and Pattern Recognition, 2020.
+[139]S. Gidaris, P. Singh, and N. Komodakis, "Unsupervised representation learning by predicting image rotations," in International Conference on Learning Representations, 2018.
+[140]S. Karthik, J. Revaud, and C. Boris, "Learning from long-tailed data with noisy labels," arXiv:2108.11096, 2021.
+[141]G. Hinton, O. Vinyals, and J. Dean, "Distilling the knowledge in a neural network," arXiv:1503.02531, 2015.
+[142]J. Gou, B. Yu, S. J. Maybank, and D. Tao, "Knowledge distillation: A survey," International Journal of Computer Vision, vol. 129, no. 6, pp. 1789-1819, 2021.
+[143]X. J. Zhu, "Semi-supervised learning literature survey," 2005.
+[144]C. Rosenberg, M. Hebert, and H. Schneiderman, "Semi-supervised self- training of object detection models," 2005.
+[145]T. Wei, J.-X. Shi, W.-W. Tu, and Y.-F. Li, "Robust long-tailed learning under label noise," arXiv:2108.11569, 2021.
+[146]L. Perez and J. Wang, "The effectiveness of data augmentation in image classification using deep learning," arXiv:1712.04621, 2017.
+[147]C. Shorten and T. M. Khoshgoftaar, "A survey on image data augmen- tation for deep learning," Journal of Big Data, vol. 6, no. 1, pp. 1-48, 2019.
+[148]H.-P. Chou, S.-C. Chang, J.-Y. Pan, W. Wei, and D.-C. Juan, "Remix: Rebalanced mixup," in European Conference on Computer Vision Workshop, 2020, pp. 95-110.
+[149]Y. Wang, X. Pan, S. Song, H. Zhang, G. Huang, and C. Wu, "Implicit semantic data augmentation for deep networks," in Advances in Neural Information Processing Systems, vol. 32, 2019, pp. 12 635-12 644.
+[150]J. Goh and M. Sim, "Distributionally robust optimization and its tractable approximations," Operations Research, vol. 58, no. 4-part-1, pp. 902- 917, 2010.
+[151]T. Cover and P. Hart, "Nearest neighbor pattern classification," IEEE transactions on information theory, vol. 13, no. 1, pp. 21-27, 1967.
+[152]J. Cui, S. Liu, Z. Tian, Z. Zhong, and J. Jia, "Reslt: Residual learning for long-tailed recognition," arXiv:2101.10633, 2021.
+[153]E. D. Cubuk, B. Zoph, J. Shlens, and Q. Le, "Randaugment: Practical automated data augmentation with a reduced search space," Advances in Neural Information Processing Systems, vol. 33, 2020.
+[154]S. Yun, D. Han, S. J. Oh, S. Chun, J. Choe, and Y. Yoo, "Cutmix: Regularization strategy to train strong classifiers with localizable features," in International Conference on Computer Vision, 2019.
+[155]M. R. Keaton, R. J. Zaveri, M. Kovur, C. Henderson, D. A. Adjeroh, and G. Doretto, "Fine-grained visual classification of plant species in the wild: Object detection as a reinforced means of attention," arXiv:2106.02141, 2021.
+[156]X. Jia, H. Yan, Y. Wu, X. Wei, X. Cao, and Y. Zhang, "An effective and robust detector for logo detection," arXiv:2108.00422, 2021.
+[157]Z. Zhang, S. Yu, S. Yang, Y. Zhou, and B. Zhao, "Rail-5k: a real-world dataset for rail surface defects detection," arXiv:2106.14366, 2021.
+[158]A. Galdran, G. Carneiro, and M. A. G. Ballester, "Balanced-mixup for highly imbalanced medical image classification," in International Conference on Medical Image Computing and Computer-Assisted Intervention, 2021.
+[159]T. Weyand, A. Araujo, B. Cao, and J. Sim, "Google landmarks dataset v2-a large-scale benchmark for instance-level recognition and retrieval," in Computer Vision and Pattern Recognition, 2020, pp. 2575-2584.
+[160]J. Wu, L. Song, T. Wang, Q. Zhang, and J. Yuan, "Forest r-cnn: Large- vocabulary long-tailed object detection and instance segmentation," in ACM International Conference on Multimedia, 2020, pp. 1570-1578.
+[161]J. Mao, M. Niu, C. Jiang, H. Liang, X. Liang, Y. Li, C. Ye, W. Zhang, Z. Li, J. Yu et al., "One million scenes for autonomous driving: Once dataset," in NeurIPS 2021 Datasets and Benchmarks Track, 2021.
+[162]Y. Zhang, Z. Zhou, P. David, X. Yue, Z. Xi, B. Gong, and H. Foroosh, "Polarnet: An improved grid representation for online lidar point clouds semantic segmentation," in Computer Vision and Pattern Recognition, 2020, pp. 9601-9610.
+[163]X. Chen, C. Zhang, G. Lin, and J. Han, "Compositional prototype network with multi-view comparision for few-shot point cloud semantic segmentation," arXiv:2012.14255, 2020.
+[164]N. Dhingra, F. Ritter, and A. Kunz, "Bgt-net: Bidirectional gru trans- former network for scene graph generation," in Computer Vision and Pattern Recognition, 2021, pp. 2150-2159.
+[165]J. Chen, A. Agarwal, S. Abdelkarim, D. Zhu, and M. Elhoseiny, "Reltransformer: Balancing the visual relationship detection from local context, scene and memory," arXiv:2104.11934, 2021.
+[166]Z. Li, E. Stengel-Eskin, Y. Zhang, C. Xie, Q. Tran, B. Van Durme, and A. Yuille, "Calibrating concepts and operations: Towards symbolic reasoning on real images," in International Conference on Computer Vision, 2021.
+[167]M. Luo, F. Chen, D. Hu, Y. Zhang, J. Liang, and J. Feng, "No fear of heterogeneity: Classifier calibration for federated learning with non-iid data," in Advances in Neural Information Processing Systems, 2021.
+[168]S. Niu, J. Wu, G. Xu, Y. Zhang, Y. Guo, P. Zhao, P. Wang, and M. Tan, "Adaxpert: Adapting neural architecture for growing data," in International Conference on Machine Learning, 2021, pp. 8184-8194.
+[169]Y. Zhang, S. Niu, Z. Qiu, Y. Wei, P. Zhao, J. Yao, J. Huang, Q. Wu, and M. Tan, "Covid-da: Deep domain adaptation from typical pneumonia to covid-19," arXiv:2005.01577, 2020.
+[170]X. Peng, Q. Bai, X. Xia, Z. Huang, K. Saenko, and B. Wang, "Moment matching for multi-source domain adaptation," in International Conference on Computer Vision, 2019, pp. 1406-1415.
+[171]K. Cao, Y. Chen, J. Lu, N. Arechiga, A. Gaidon, and T. Ma, "Het- eroskedastic and imbalanced deep learning with adaptive regularization," in International Conference on Learning Representations, 2021.
+[172]Y. Yang, K. Zha, Y.-C. Chen, H. Wang, and D. Katabi, "Delving into deep imbalanced regression," in International Conference on Machine Learning, 2021.

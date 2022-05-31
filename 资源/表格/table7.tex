@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\footnotesize
+\centering
+\captionsetup{font=footnotesize}
+\caption{在ImageNet-LT上进行解耦训练200个周期得到的各种代价敏感损失的性能结果。
+这里，“Joint”表示单阶段的端到端联合训练；“NCM”是最近类别均值分类器\cite{kang2019decoupling}；“CRT”
+表示类别平衡分类器再训练\cite{kang2019decoupling}；
+“LWS”是指可学习权值缩放\cite{kang2019decoupling}。此外，BS表示
+平衡softmax方法\cite{ren2020balanced}。}
+\resizebox{3.5in}{!}{
+\begin{tabular}{lccccccccc}
+\toprule
+\multirow{2}[4]{*}{Test Dist.} & \multicolumn{4}{c}{所有类准确度} &       & \multicolumn{4}{c}{头部类准确度} \\
+\cmidrule{2-5}\cmidrule{7-10}          & Joint  & NCM   & CRT   & LWS   &       & Joint  & NCM   & CRT   & LWS \\
+\midrule
+Softmax & 46.8  & 50.2  & 50.2  & 50.8  &       & 66.9  & 63.5  & 65.0  & 64.6  \\
+焦点损失 \cite{Lin_2017_focal}  & 47.2  & 50.7  & 50.7  & 51.5  &       & 67.0  & 62.6  & 64.5  & 64.3  \\
+ESQL \cite{Tan_2020}  & 48.0  & 49.8  & 50.6  & 50.5  &       & 63.1  & 60.2  & 64.0  & 63.3  \\
+BS \cite{ren2020balanced} & 51.2  & 50.4  & 50.6  & 51.1  &       & 62.4  & 62.4  & 64.9  & 64.3  \\
+\midrule
+\midrule
+\multirow{2}[4]{*}{Test Dist.} & \multicolumn{4}{c}{中间类准确度} &       & \multicolumn{4}{c}{尾部类准确度} \\
+\cmidrule{2-5}\cmidrule{7-10}          & Joint  & NCM   & CRT   & LWS   &       & Joint  & NCM   & CRT   & LWS \\
+\midrule
+Softmax & 40.4  & 45.8  & 45.3  & 46.1  &       & 12.6  & 28.1  & 25.5  & 28.2  \\
+焦点损失 \cite{Lin_2017_focal}  & 41.0  & 47.0  & 46.4  & 47.3  &       & 13.1  & 30.1  & 26.9  & 30.2  \\
+ESQL \cite{Tan_2020}  & 44.6  & 46.6  & 46.5  & 46.1  &       & 17.2  & 31.1  & 27.1  & 29.5  \\
+BS \cite{ren2020balanced} & 47.7  & 46.8  & 46.1  & 46.7  &       & 32.1  & 29.1  & 26.2  & 29.4  \\
+\bottomrule
+\end{tabular}}%
+\label{tab:addlabel}%
+\end{table}%

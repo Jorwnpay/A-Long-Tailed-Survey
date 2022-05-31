@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\small
+\centering
+\captionsetup{font=footnotesize}
+\caption{分类器总结，其中$w,f,b,\phi$和$p$分别表示模型分类器、样本特征、
+偏差项、softmax函数和预测概率。此外，$\hat{d}$是指数移动平均特征的单位向量。
+温度因子用$\tau$表示，其他与分类器相关的超参数包括$\gamma$和$\alpha$。}
+\begin{tabular}{lc}
+\toprule
+分类器 & 表达式 \\
+\midrule
+线性分类器 & $p=\phi(w^\top f+b)$ \\
+余弦分类器 & $p=\phi(\tau \frac{w^\top f}{\Vert w \Vert \Vert f \Vert}+b)$ \\
+$\tau$-归一化分类器 & $p=\phi(\frac{w^\top f}{\Vert w \Vert^{\tau}_2}+b)$ \\
+因果分类器 & $p=\phi(\tau \frac{(w)^{\top} f}{(\Vert w \Vert + \gamma)\Vert f \Vert}
+- \alpha \frac{cos(x,\hat{d})(w)^{\top}\hat{d}}{\Vert w \Vert + \gamma})$ \\
+\bottomrule
+\end{tabular}%
+\label{tab:addlabel}%
+\end{table}%
